@@ -86,7 +86,7 @@ while (true)
     }
 }
 
-public class List<T> where T: struct
+public class List<T>
 {
     public T[] Array { get; set; }
 
